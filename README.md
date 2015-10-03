@@ -1,6 +1,7 @@
 # Scripts
 Here I will be adding some system scripts that I find useful. List of scripts:
 - [periodic-backup-files.py](#periodic-backup-filespy)
+- [remote.vbs](#remotevbs)
 
 ## periodic-backup-files.py
 
@@ -65,3 +66,7 @@ Copy the contents of the /backup/path into the /destination/path folder on a dai
 Copy the contents of the /backup/path into the /destination/path folder on a monthly basis, keeping 5 copies:
 
 	$ python periodic-backup-files.py -i /backup/path -d /destination/path -m monthly -n 5
+
+## remote.vbs
+
+VBS script to automatically launch a remote desktop session when Windows starts, without having a local environment. You can find a guide of usage [here](http://rubenrubiob.tumblr.com/post/130339924491/windows-xp-start-remote-desktop-on-boot).
