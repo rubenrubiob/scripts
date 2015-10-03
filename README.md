@@ -1,6 +1,6 @@
 # Scripts
 Here I will be adding some system scripts that I find useful. List of scripts:
-- [periodic-backup-files.py](#periodic-backup-files-py)
+- [periodic-backup-files.py](#periodic-backup-filespy)
 
 ## periodic-backup-files.py
 
