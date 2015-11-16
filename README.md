@@ -59,15 +59,16 @@ Usage:
 ### Example 1
 
 Copy the contents of the /backup/path into the /destination/path folder on a daily basis, keeping only 3 copies:
-
-	$ python periodic-backup-files.py -i /backup/path -d /destination/path
+```bash
+$ python periodic-backup-files.py -i /backup/path -d /destination/path
+```
 
 ### Example 2
 
 Copy the contents of the /backup/path into the /destination/path folder on a monthly basis, keeping 5 copies:
-
-	$ python periodic-backup-files.py -i /backup/path -d /destination/path -m monthly -n 5
-
+```bash
+$ python periodic-backup-files.py -i /backup/path -d /destination/path -m monthly -n 5
+```
 ===
 ## remote.vbs
 
